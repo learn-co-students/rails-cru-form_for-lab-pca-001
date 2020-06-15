@@ -1,0 +1,7 @@
+<%= form_tag "/artists" do %>
+  <%= label_tag "artist[name]", "Artist Name" %>
+  <%= text_field_tag "artist[name]" %>
+  <%= label_tag "artist[bio]", "Artist Bio" %>
+  <%= text_field_tag "artist[bio]" %>
+  <%= submit_tag "Create Artist" %>
+<% end %>
